@@ -6,7 +6,7 @@ body{
 
 .titulo{
     display: flex;
-    height: 670px;
+    height: 650px;
     width: 100%;
     align-items: center;
     background-image: url(./img/primeira.jpg);
