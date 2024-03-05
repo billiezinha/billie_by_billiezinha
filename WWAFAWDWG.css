@@ -55,7 +55,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-right: 90px;
+    margin-right: 50px;
     margin-bottom: 20px;
     align-self: flex-end;
 }
@@ -80,7 +80,7 @@ body{
 }
 
 .whentitulo{
-    margin-left: 90px;
+    margin-left: 180px;
     margin-top: 30px;
     height: 100px;
 }
@@ -88,12 +88,7 @@ body{
 .mscwhen{
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
-}
-
-.mscwhen audio{
-    height: 30px;
-    margin: 1px;
+    margin-left: 50px;
 }
 
 .happier{
@@ -110,19 +105,15 @@ body{
     height: 150px;
     display: flex;
     justify-content: end;
-    margin-right: 90px;
-    margin-bottom: -20px;
+    margin-left: 150px;
 }
 
 .mschappier{
     display: flex;
     flex-direction: column;
+    margin-right: 50px;
 }
 
-.mschappier audio{
-    height: 30px;
-    margin: 1px;
-}
 
 .mschappier audio::-webkit-media-controls-panel{
     background-color: #7e5c3f;;
@@ -149,13 +140,7 @@ body{
 .mscgs{
     display: flex;
     flex-direction: column;
-    height: 70px;
     margin-top: 60px;
-}
-
-.mscgs audio{
-    margin: 1px;
-    height: 30px;
 }
 
 .animacao {
@@ -185,3 +170,20 @@ body{
     opacity: 0.5;
     }
 }
+
+.Clipes{
+    display: flex;
+    justify-content: center;
+    background-image: url(./img/billie-eilish-ingressos-header.png);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+}
+
+.clipestitulo{
+    margin-top: 45px;
+}
+
