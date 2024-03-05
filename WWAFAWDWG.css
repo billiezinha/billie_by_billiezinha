@@ -1,10 +1,10 @@
-body{
+body {
     margin: 0;
     display: flex;
     flex-direction: column;
 }
 
-.titulo{
+.titulo {
     display: flex;
     height: 650px;
     width: 100%;
@@ -14,7 +14,7 @@ body{
     background-position: center;
 }
 
-.textotitulo{
+.textotitulo {
     display: flex;
     justify-content: center;
     align-items: end;
@@ -30,7 +30,7 @@ body{
     margin: 5px;
 }
 
-.dont{
+.dont {
     background-image: url(./img/dont-01.jpeg);
     display: flex;
     flex-direction: column;
@@ -41,7 +41,7 @@ body{
     justify-content: end;
 }
 
-.donttitulo{
+.donttitulo {
     display: flex;
     margin-right: 110px;
     color: #d62424;
@@ -51,7 +51,7 @@ body{
     margin-top: 20px;
 }
 
-.mscdont{
+.mscdont {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -60,16 +60,16 @@ body{
     align-self: flex-end;
 }
 
-.mscdont audio{
+.mscdont audio {
     height: 30px;
     margin: 1px;
 }
 
-.mscdont audio::-webkit-media-controls-panel{
+.mscdont audio::-webkit-media-controls-panel {
     background-color: #d62424;
 }
 
-.when{
+.when {
     background-image: url(./img/when-01.jpeg.jpg);
     color: white;
     display: flex;
@@ -79,19 +79,19 @@ body{
     background-position: center;
 }
 
-.whentitulo{
+.whentitulo {
     margin-left: 180px;
     margin-top: 30px;
     height: 100px;
 }
 
-.mscwhen{
+.mscwhen {
     display: flex;
     flex-direction: column;
     margin-left: 50px;
 }
 
-.happier{
+.happier {
     background-image: url(./img/happier-01.jpeg.jpg);
     background-size: cover;
     background-position: center;
@@ -101,25 +101,24 @@ body{
     justify-content: end;
 }
 
-.happiertitulo{
+.happiertitulo {
     height: 150px;
     display: flex;
     justify-content: end;
     margin-left: 150px;
 }
 
-.mschappier{
+.mschappier {
     display: flex;
     flex-direction: column;
     margin-right: 50px;
 }
 
-
-.mschappier audio::-webkit-media-controls-panel{
-    background-color: #7e5c3f;;
+.mschappier audio::-webkit-media-controls-panel {
+    background-color: #7e5c3f;
 }
 
-.guitar{
+.guitar {
     display: flex;
     align-items: center;
     background-image: url(./img/guitar.jpg);
@@ -129,7 +128,7 @@ body{
     width: 100%;
 }
 
-.tituloguitar{
+.tituloguitar {
     margin-top: 30px;
     margin-right: 90px;
     display: flex;
@@ -137,7 +136,7 @@ body{
     height: 160px;
 }
 
-.mscgs{
+.mscgs {
     display: flex;
     flex-direction: column;
     margin-top: 60px;
@@ -162,16 +161,16 @@ body{
 
 @keyframes animacaoDescer {
     0% {
-    transform: translateY(0);
-    opacity: 1;
+        transform: translateY(0);
+        opacity: 1;
     }
     100% {
-    transform: translateY(20px);
-    opacity: 0.5;
+        transform: translateY(20px);
+        opacity: 0.5;
     }
 }
 
-.Clipes{
+.Clipes {
     display: flex;
     justify-content: center;
     background-image: url(./img/billie-eilish-ingressos-header.png);
@@ -183,7 +182,6 @@ body{
     font-size: 25px;
 }
 
-.clipestitulo{
+.clipestitulo {
     margin-top: 45px;
 }
-
