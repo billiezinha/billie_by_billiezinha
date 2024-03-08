@@ -185,3 +185,31 @@ body {
 .clipestitulo {
     margin-top: 45px;
 }
+
+.clipes img{
+    align-items: center;
+    display: flex;
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+.fim {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid grey;
+    height: 20px;
+}
+
+.fim p, .fim h2 {
+    margin: 0 10px;
+}
