@@ -9,36 +9,28 @@ body {
     height: 650px;
     width: 100%;
     align-items: center;
-    background-image: url(./img/primeira.jpg);
-    background-size: cover;
-    background-position: center;
+    background: url(./img/primeira.webp) center/cover;
 }
 
 .textotitulo {
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: flex-end;
     color: white;
     width: 60%;
 }
 
-.textotitulo h1 {
-    margin: 5px;
-}
-
-.textotitulo p {
+.textotitulo h1, .textotitulo p {
     margin: 5px;
 }
 
 .dont {
-    background-image: url(./img/dont-01.jpeg);
+    background: url(./img/dont-01.webp) center/cover;
     display: flex;
     flex-direction: column;
     height: 700px;
     width: 100%;
-    background-size: cover;
-    background-position: center;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .donttitulo {
@@ -47,8 +39,7 @@ body {
     color: #d62424;
     font-family: sans-serif;
     justify-content: flex-end;
-    margin-bottom: 10px;
-    margin-top: 20px;
+    margin: 20px 70px;
 }
 
 .mscdont {
@@ -63,20 +54,15 @@ body {
 .mscdont audio {
     height: 30px;
     margin: 1px;
-}
-
-.mscdont audio::-webkit-media-controls-panel {
     background-color: #d62424;
 }
 
 .when {
-    background-image: url(./img/when-01.jpeg.jpg);
+    background: url(./img/when-01.jpeg.webp) center/cover;
     color: white;
     display: flex;
     height: 700px;
     width: 100%;
-    background-size: cover;
-    background-position: center;
 }
 
 .whentitulo {
@@ -92,20 +78,18 @@ body {
 }
 
 .happier {
-    background-image: url(./img/happier-01.jpeg.jpg);
-    background-size: cover;
-    background-position: center;
+    background: url(./img/happier-01.jpeg.webp) center/cover;
     display: flex;
     height: 700px;
     width: 100%;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .happiertitulo {
     height: 150px;
     display: flex;
-    justify-content: end;
-    margin-left: 150px;
+    justify-content: flex-end;
+    margin-right: 20px;
 }
 
 .mschappier {
@@ -114,25 +98,23 @@ body {
     margin-right: 50px;
 }
 
-.mschappier audio::-webkit-media-controls-panel {
+.mschappier audio {
     background-color: #7e5c3f;
 }
 
 .guitar {
     display: flex;
+    justify-content: center;
     align-items: center;
-    background-image: url(./img/guitar.jpg);
-    background-position: center;
-    background-size: cover;
+    background: url(./img/guitar.webp) center/cover;
     height: 700px;
     width: 100%;
 }
 
 .tituloguitar {
     margin-top: 30px;
-    margin-right: 90px;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     height: 160px;
 }
 
@@ -140,7 +122,9 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 60px;
+    align-items: center;
 }
+
 
 .animacao {
     position: absolute;
@@ -173,13 +157,11 @@ body {
 .Clipes {
     display: flex;
     justify-content: center;
-    background-image: url(./img/billie-eilish-ingressos-header.png);
-    background-position: center;
-    background-size: cover;
-    height: 700px;
-    width: 100%;
+    background: url(./img/billie-eilish-ingressos-header.webp) center/cover;
     color: white;
     font-size: 25px;
+    height: 700px;
+    width: 100%;
 }
 
 .clipestitulo {
@@ -195,15 +177,13 @@ body {
     color: white;
     justify-content: center;
     background-color: black;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 10px;
     border: 1px solid #072349;
     border-radius: 10px;
 }
 
-.textinho{
+.textinho {
     display: flex;
-
 }
 
 .fim {
@@ -226,12 +206,8 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-
     .titulo, .dont, .when, .happier, .guitar, .Clipes {
         height: auto;
-    }
-
-    .titulo, .dont, .when, .happier, .guitar, .Clipes {
         background-position: top;
     }
 
@@ -249,7 +225,6 @@ body {
 }
 
 @media screen and (max-width: 576px) {
-
     .textotitulo h1 {
         font-size: 24px;
     }
@@ -279,52 +254,16 @@ body {
     }
 }
 
-/* Adicione este bloco de código ao seu arquivo CSS */
-
-.mscdont iframe {
-    width: 100%;
+.teste {
+    width: 500px;
     height: 500px;
-    max-width: 600px;
-}
-
-.mscwhen iframe {
-    width: 100%;
-    height: 500px;
-    max-width: 600px;
-}
-
-.mschappier iframe {
-    width: 100%;
-    height: 500px;
-    max-width: 600px;
-}
-
-.mscgs iframe {
-    width: 100%;
-    height: 400px;
     max-width: 600px;
 }
 
 @media screen and (max-width: 768px) {
-    .mscdont iframe,
-    .mscwhen iframe,
-    .mschappier iframe {
-        height: 400px;
-    }
-
-    .mscgs iframe {
-        height: 300px;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .mscdont iframe,
-    .mscwhen iframe,
-    .mschappier iframe {
-        height: 300px;
-    }
-
-    .mscgs iframe {
-        height: 200px;
+    .teste {
+        width: 100%;
+        height: auto;
+        max-width: none;
     }
 }
