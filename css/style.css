@@ -9,7 +9,7 @@ body {
     height: 650px;
     width: 100%;
     align-items: center;
-    background: url(./img/primeira.webp) center/cover;
+    background: url("../img/primeira.webp") center/cover;
 }
 
 .textotitulo {
@@ -25,7 +25,7 @@ body {
 }
 
 .dont {
-    background: url(./img/dont-01.webp) center/cover;
+    background: url("../img/dont-01.webp") center/cover;
     display: flex;
     flex-direction: column;
     height: 700px;
@@ -58,7 +58,7 @@ body {
 }
 
 .when {
-    background: url(./img/when-01.jpeg.webp) center/cover;
+    background: url("../img/when-01.jpeg.webp") center/cover;
     color: white;
     display: flex;
     height: 700px;
@@ -78,7 +78,7 @@ body {
 }
 
 .happier {
-    background: url(./img/happier-01.jpeg.webp) center/cover;
+    background: url("../img/happier-01.jpeg.webp") center/cover;
     display: flex;
     height: 700px;
     width: 100%;
@@ -106,7 +106,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(./img/guitar.webp) center/cover;
+    background: url("../img/guitar.webp") center/cover;
     height: 700px;
     width: 100%;
 }
@@ -157,7 +157,7 @@ body {
 .Clipes {
     display: flex;
     justify-content: center;
-    background: url(./img/billie-eilish-ingressos-header.webp) center/cover;
+    background: url("../img/billie-eilish-ingressos-header.webp") center/cover;
     color: white;
     font-size: 25px;
     height: 700px;
