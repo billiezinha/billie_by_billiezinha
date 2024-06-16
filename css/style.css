@@ -103,7 +103,7 @@ body {
 }
 
 .hitme {
-    background: url("../img/hitme.webp.jpg") center/cover;
+    background: url("../img/hitme.webp.webp") center/cover;
     display: flex;
     height: 700px;
     width: 100%;
